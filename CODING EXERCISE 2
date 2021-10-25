@@ -21,7 +21,7 @@ class Exercise2 {
 		sum = CH1 + CH2 + CH3;
 		avg = ((GPA1*CH1) + (GPA2*CH2) + (GPA3*CH3))/sum;
 		
-		System.out.println("Academic Transcript");
+		System.out.println("ACADEMIC TRANSCRIPT");
 		System.out.println("Name : " + name);
 		System.out.println("Matric.No : " + matric);
 		System.out.println("Sem/Session of Admission : " + sem);
@@ -34,3 +34,4 @@ class Exercise2 {
 	}
 
 }
+
