@@ -1,0 +1,36 @@
+package numericData;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double GPA1 = 4.00;
+		double GPA2 = 3.97;
+		double GPA3 = 3.90;
+		double CH1 = 20;
+		double CH2 = 20;
+		double CH3 = 10;
+		String name = "Tan Zhi Xian";
+		String matric = "F01464";
+		String sem = "July 2020/2021";
+		String programme = "Foundation Studies in Management";
+		
+		double sum, avg;
+		double mul;
+		
+		sum = CH1 + CH2 + CH3;
+		avg = ((GPA1*CH1) + (GPA2*CH2) + (GPA3*CH3))/sum;
+		
+		System.out.println("Academic Transcript");
+		System.out.println("Name : " + name);
+		System.out.println("Matric.No : " + matric);
+		System.out.println("Sem/Session of Admission : " + sem);
+		System.out.println("Programme : " + programme);
+		System.out.printf("GPA July Semester 2020/2021 Session : %.2f ", GPA1);
+		System.out.printf("\nGPA December Semester 2020/2021 Session : %.2f ", GPA2);
+		System.out.printf("\nGPA April Semester 2020/2021 Session : %.2f ", GPA3);
+		System.out.println("\nTotal Number of Credits Taken : " + sum);
+		System.out.printf("CGPA : %.2f ", avg);
+	}
+
+}
