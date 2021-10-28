@@ -1,5 +1,7 @@
 package selfProgramming;
 
+// Write a single println statement that produces the following output 
+
 class QuickCheck2 {
 
 	public static void main(String[] args) {
