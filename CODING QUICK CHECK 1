@@ -1,5 +1,7 @@
 package selfProgramming;
 
+// Calculate the output produce by the following numbers
+
 class QuickCheck1 {
 
 	public static void main(String[] args) {
