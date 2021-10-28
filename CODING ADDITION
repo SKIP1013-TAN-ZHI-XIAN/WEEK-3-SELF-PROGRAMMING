@@ -1,6 +1,5 @@
 package selfProgramming;
 
-
 // Demonstrates the difference between the addition and string concatenation operators
 
 class Addition {
