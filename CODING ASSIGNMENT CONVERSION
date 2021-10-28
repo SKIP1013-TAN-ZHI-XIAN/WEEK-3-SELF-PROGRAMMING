@@ -1,0 +1,12 @@
+package selfProgramming;
+
+class AssignmentConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int dollars = 20;  // Narrow 20 to dollars
+		double money = dollars;  // Widen dollars to money
+		System.out.println("money = " + money);
+	}
+
+}
