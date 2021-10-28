@@ -1,0 +1,12 @@
+package selfProgramming;
+
+class Casting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int total = 50;
+		float result = (float) total / 6;  // Manual casting : int to float
+		System.out.println("The result is " + result);
+	}
+
+}
