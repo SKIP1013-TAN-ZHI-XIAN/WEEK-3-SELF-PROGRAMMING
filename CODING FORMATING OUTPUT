@@ -12,7 +12,7 @@ class FormatingOutput {
 		double y = 5.373123;
 		System.out.printf("\n\nValue of x is %d and value of y is %6.2f %n", x, y);
 		
-		System.out.printf("\n\n%-10s ", "Total : ");
+		System.out.printf("\n%-10s ", "Total : ");
 		double price = 17.2908645;
 		System.out.printf("\n%10.2f ", price);
 		System.out.printf("\n%-10s %10.2f ", "Total : ", price);
