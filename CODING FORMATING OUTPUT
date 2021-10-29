@@ -1,0 +1,21 @@
+package selfProgramming;
+
+class FormatingOutput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double pricePerliter = 1.21997;
+		System.out.printf("Price per liter : %.2f ", pricePerliter);
+		System.out.printf("\nPrice per liter : %10.2f ", pricePerliter);
+		
+		int x = 10;
+		double y = 5.373123;
+		System.out.printf("\n\nValue of x is %d and value of y is %6.2f %n", x, y);
+		
+		System.out.printf("\n\n%-10s ", "Total : ");
+		double price = 17.2908645;
+		System.out.printf("\n%10.2f ", price);
+		System.out.printf("\n%-10s %10.2f ", "Total : ", price);
+	}
+
+}
