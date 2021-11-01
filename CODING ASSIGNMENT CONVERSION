@@ -6,7 +6,7 @@ class AssignmentConversion {
 		// TODO Auto-generated method stub
 		int dollars = 20;  // Narrow 20 to dollars
 		double money = dollars;  // Widen dollars to money
-		System.out.println("money = " + money);
+		System.out.println("money = " + money);  // int dollar is a real number and double money become 20.0
 	}
 
 }
