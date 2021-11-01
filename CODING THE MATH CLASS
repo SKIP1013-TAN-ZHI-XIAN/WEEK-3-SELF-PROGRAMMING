@@ -56,7 +56,7 @@ class TheMathClass {
 		System.out.println();
         
 		double a = 30;    
-        // Converting values to radian    
+                // Converting values to radian    
 		double b = Math.toRadians(a);   
           
 		// Return the trigonometric sine of a      
