@@ -9,6 +9,7 @@ class TheMathClass {
 		double s = -6;
 		System.out.printf("The answer is : %.2f ", (-r + Math.sqrt(r * r - 4 * q * s)) / (2 * q));
 		
+		System.out.println();
 		
 		double x = 28;    
         double y = 4;    
@@ -42,6 +43,8 @@ class TheMathClass {
         //  return (a power of 2)-1  
         System.out.println("expm1 of a is: " + Math.expm1(x));  
         
+        System.out.println();
+        
         double m = 79.52;  
         // find the closest int for the double  
         System.out.println("The round number of m is : " + Math.round(m));  
@@ -49,6 +52,8 @@ class TheMathClass {
         double n = -83.76;  
         // find the closest int for the double  
         System.out.println("The round number of n is : " + Math.round(n));    
+       
+        System.out.println();
         
         double a = 30;    
         
